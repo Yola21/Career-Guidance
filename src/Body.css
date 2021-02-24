@@ -1,0 +1,24 @@
+.body{
+    margin: 10px;
+}
+
+.body_Intro{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body_Intro > * {
+    /* border: 1px solid red; */
+    margin: 5px;
+}
+
+.body_Intro > section{
+    padding: 10px;
+    text-align: center;
+}
+
+.body_IntroSVG img{
+    width: 50rem;
+    object-fit: cover;
+}
