@@ -9,7 +9,7 @@ export default class Header extends Component {
                     <li>Home</li>
                     <li>About</li>
                     <li>Assessment</li>
-                    <li><h1>Career Guidance</h1></li>
+                    <li><h1>What's Next</h1></li>
                     <li>Personality Traits</li>
                     <li>Working</li>
                     <li>FAQ</li>

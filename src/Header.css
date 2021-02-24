@@ -1,7 +1,7 @@
 .header{
-    background-color: cornflowerblue;
+    /* background-color: cornflowerblue; */
     padding: 10px;
-    color: cornsilk;
+    color: cornflowerblue;
 }
 
 .header ul{
@@ -10,16 +10,21 @@
     justify-content: center;
 }
 
-.header ul li{
+ul li{
     display: flex;
     align-items: center;
     margin: 0 10px;
+    text-decoration: underline;
+}
+
+ul li:nth-child(4){
+    text-decoration: none;
 }
 
 .header_Login{
-    position: fixed;
-    right: 15px;
-    top: 20px;
+    position: absolute;
+    left: 82rem;
+    top: 19px;
     display: flex;
     align-items: center;
 }
@@ -29,5 +34,8 @@
     padding: 7px 10px;
     margin: 0 5px;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+    color: #fff;
+    font-size: 15px;
 }

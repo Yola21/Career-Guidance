@@ -15,10 +15,82 @@
 
 .body_Intro > section{
     padding: 10px;
+    text-align: justify;
+    font-size: 22px;
+    /* background-color: lavender; */
+    color: cornflowerblue;
+}
+
+img{
+    width: 50rem;
+    object-fit: cover;
+}
+
+.body_CounterBox{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 50%;
+    padding: 25px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.body_CounterBox div{
     text-align: center;
 }
 
-.body_IntroSVG img{
-    width: 50rem;
-    object-fit: cover;
+.body_Personality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 75px;
+    padding: 25px;
+}
+
+.body_PersonalityTraits{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.body_PersonalityTraits div{
+    border: 1px solid ;
+    margin: 15px;
+    width: 25rem;
+    height: 15rem;
+}
+
+.body_Assessment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.body_AssessmentGuide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#body_AssessmentBox{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 20px;
+    border-radius: 10px 100px 100px 100px;
+    text-align: center;
+}
+
+#body_AssessmentBox button{
+    margin-top: 25px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
 }

@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    background-color: cornsilk;
+}
+
+.footer_Section{
+    padding: 15px;
+    display: flex;
+}
+
+.footer_Section > div{
+    border: 1px solid red;
+    width: 100vh;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+ul li{
+    display: flex;
+    align-items: center;
+}
+
+i{
+    font-size: 30px;
+}
+
+a{
+    text-decoration: none;
+    /* color: coral; */
+}
+
+.footer_Copyright{
+    margin-top: 15px;
+    padding: 15px;
+    text-align: center;
+    background-color: coral;
+}
