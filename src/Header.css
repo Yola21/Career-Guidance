@@ -2,6 +2,10 @@
     /* background-color: cornflowerblue; */
     padding: 10px;
     color: cornflowerblue;
+    font-size: 20px;
+    position: sticky;
+    top: 0;
+    transition: 0.5s;
 }
 
 .header ul{
@@ -10,14 +14,18 @@
     justify-content: center;
 }
 
-ul li{
+ul > *{
     display: flex;
     align-items: center;
     margin: 0 10px;
     text-decoration: underline;
 }
 
-ul li:nth-child(4){
+.header > ul > a{
+    color: cornflowerblue;
+}
+
+.header > ul > a:nth-child(4){
     text-decoration: none;
 }
 
@@ -38,4 +46,18 @@ ul li:nth-child(4){
     background-color: cornflowerblue;
     color: #fff;
     font-size: 15px;
+}
+
+.header_Show{
+    background-color: cornflowerblue;
+    color: lavenderblush;
+}
+
+.header_Show > ul > a{
+    color: lavenderblush;
+}
+
+.header_Show button{
+    background-color: lavenderblush;
+    color: cornflowerblue;
 }
