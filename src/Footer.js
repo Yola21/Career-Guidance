@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './Footer.css';
+import { Link } from 'react-router-dom';
 
 export default class Footer extends Component {
     render() {
@@ -23,39 +24,39 @@ export default class Footer extends Component {
                         </ul>
                     </div>
 
-                    <div>
+                    <div className="footer_SocialLinks">
                         <h4>Contact Us</h4>
                         <ul>
                             <li>
-                                <a href="/#">
+                                <Link to="/">
                                 <i class="fab fa-facebook-square facebook"> </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/#">
+                                <Link to="/">
                                 <i class="fab fa-instagram instagram"> </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/#">
+                                <Link to="/">
                                 <i class="fab fa-twitter-square twitter"> </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/#">
+                                <Link to="/">
                                 <i class="fab fa-google-plus-square google"> </i>
-                                </a>
+                                </Link>
                             </li>
                             <li>
-                                <a href="/#">
+                                <Link to="/">
                                 <i class="fab fa-linkedin linkedin"> </i>
-                                </a>
+                                </Link>
                             </li>
                         </ul>
                     </div>
                 </section>
                 <div className="footer_Copyright">
-                    <p>© 2020 Copyright: <a href="/#"> Career Guidance.com</a></p>
+                    <p>© 2020 Copyright: <Link to="/"> Career Guidance.com</Link></p>
                 </div>
             </footer>
         )

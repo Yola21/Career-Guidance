@@ -3,6 +3,7 @@
     padding: 10px;
     color: cornflowerblue;
     font-size: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
     position: sticky;
     top: 0;
     transition: 0.5s;
@@ -27,12 +28,13 @@ ul > *{
 
 .header > ul > a:nth-child(4){
     text-decoration: none;
+    font-family: 'Playfair Display', serif;
 }
 
 .header_Login{
     position: absolute;
     left: 82rem;
-    top: 19px;
+    top: 32px;
     display: flex;
     align-items: center;
 }
@@ -46,6 +48,8 @@ ul > *{
     background-color: cornflowerblue;
     color: #fff;
     font-size: 15px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
 }
 
 .header_Show{

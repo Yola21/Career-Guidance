@@ -1,9 +1,11 @@
-/* .body{
-    margin: 10px;
-} */
-
 h2{
     color: cornflowerblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
 }
 
 .body_Abstract{
@@ -14,6 +16,7 @@ h2{
     height: 89.5vh;
     display: flex;
     align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .body_Abstract div{
@@ -26,6 +29,7 @@ h2{
 .body_Abstract p::first-letter{
     color: darkblue;
     font-size: 60px;
+    font-family: 'Playfair Display', sans-serif;
 }
 
 .body_SVG{
@@ -53,6 +57,7 @@ h2{
     color: cornsilk;
     font-size: 20px;
     font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
     box-shadow: 0 10px 30px #343a40;
 }
 
@@ -94,6 +99,11 @@ h2{
     border-radius: 10px;
     background-color: coral;
     color: cornsilk;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body_PersonalityTraits h3{
+    color: #000;
 }
 
 .body_PersonalityImage{
@@ -127,6 +137,7 @@ h2{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #body_AssessmentBox{
@@ -135,6 +146,10 @@ h2{
     padding: 20px;
     border-radius: 10px 100px 100px 100px;
     text-align: center;
+}
+
+#body_AssessmentBox h3{
+    color: darkblue;
 }
 
 #body_AssessmentBox button{
@@ -146,4 +161,9 @@ h2{
     color: cornflowerblue;
     font-size: 15px;
     font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.body_Intro{
+    font-family: 'Source Sans Pro', sans-serif;
 }
