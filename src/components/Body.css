@@ -1,0 +1,169 @@
+h2{
+    color: cornflowerblue;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+
+h3{
+    font-family: 'Playfair Display', serif;
+}
+
+.body_Abstract{
+    font-size: 18px;
+    padding: 10px 20px;
+    background: url(../image/careerbg.png);
+    width: 97vw;
+    height: 89.5vh;
+    display: flex;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body_Abstract div{
+    width: 45%;
+    font-size: 35px;
+    color: cornsilk;
+    text-align: center;
+}
+
+.body_Abstract p::first-letter{
+    color: darkblue;
+    font-size: 60px;
+    font-family: 'Playfair Display', sans-serif;
+}
+
+.body_SVG{
+    width: 50rem;
+    object-fit: cover;
+}
+
+.body_CounterBox{
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 25px;
+    margin-top: 8rem;
+}
+
+.body_Box{
+    width: 50%;
+    /* border: 1px solid indigo; */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    background-color: cornflowerblue;
+    color: cornsilk;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-shadow: 0 10px 30px #343a40;
+}
+
+.body_Box div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.body_Personality{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    padding: 35px;
+}
+
+.body_PersonalityTraits{
+    margin-top: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.body_PersonalityTraits > div{
+    /* border: 1px solid red; */
+    margin: 15px 28px;
+    padding: 0 10px;
+    width: 18rem;
+    height: 20rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    border-radius: 10px;
+    background-color: coral;
+    color: cornsilk;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.body_PersonalityTraits h3{
+    color: #000;
+}
+
+.body_PersonalityImage{
+    background-color: #fff;
+    width: 19.3rem;
+    /* border-bottom: 5px solid #000; */
+    /* border-right: 5px solid #000; */
+    border-radius: 10px 10px 50px 50px;
+    /* border-radius: 10px; */
+    text-align: center;
+    box-shadow: 0 10px 30px #343a40;
+}
+
+.body_PersonalityTraits div h3, p{
+    margin-top: 15px;
+}
+
+.body_PersonalitySVG{
+    width: 8rem;
+}
+
+.body_Assessment{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 45px;
+    padding: 35px;
+}
+
+.body_AssessmentGuide{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+#body_AssessmentBox{
+    background-color: cornflowerblue;
+    color: cornsilk;
+    padding: 20px;
+    border-radius: 10px 100px 100px 100px;
+    text-align: center;
+}
+
+#body_AssessmentBox h3{
+    color: darkblue;
+}
+
+#body_AssessmentBox button{
+    margin-top: 25px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    background-color: lavenderblush;
+    color: cornflowerblue;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Playfair Display', serif;
+}
+
+.body_Intro{
+    font-family: 'Source Sans Pro', sans-serif;
+}

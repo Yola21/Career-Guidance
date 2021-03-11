@@ -1,10 +1,10 @@
 import './App.css';
-import Footer from './components/Footer';
-import Header from './components/Header';
-import Body from './components/Body';
+import Footer from './Footer';
+import Header from './Header';
+import Body from './Body';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Questions from './components/Questions';
-import ChatBot from './ChatBot-Components/ChatBot';
+import Questions from './Questions';
+import ChatBot from './ChatBot';
 
 function App() {
   return (
