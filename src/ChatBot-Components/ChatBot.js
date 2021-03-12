@@ -2,8 +2,8 @@ import React, { Component } from "react";
 import "./ChatBot.css";
 import Chatbot from "react-chatbot-kit";
 import config from "../config/chatbotConfig";
-import ActionProvider from "./ActionProvider";
-import MessageParser from "./MessageParser";
+import ActionProvider from "../utils/ActionProvider";
+import MessageParser from "../utils/MessageParser";
 
 class ChatBot extends Component {
   state = {
