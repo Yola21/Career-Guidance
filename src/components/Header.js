@@ -38,16 +38,24 @@ export default class Header extends Component {
                     <Link to="/">
                         <li>Home</li>
                     </Link>
-                    <li>About</li>
-                    <li>Assessment</li>
+                    <Link to="/about">
+                        <li>About</li>
+                    </Link>
+                    <Link to="/assessment">
+                        <li>Assessment</li>
+                    </Link>
                     <Link to="/">
                         <li><h1>What's Next</h1></li>
                     </Link>
-                    <Link to="/questions">
+                    <Link to="/personality">
                         <li>Personality Traits</li>
                     </Link>
-                    <li>Working</li>
-                    <li>FAQ</li>
+                    <Link to="/working">
+                        <li>Working</li>
+                    </Link>
+                    <Link to="/faq">
+                        <li>FAQ</li>
+                    </Link>
                 </ul>
                 <div className="header_Login">
                     <button>Login</button>

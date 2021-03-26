@@ -3,8 +3,12 @@ import Footer from './components/Footer';
 import Header from './components/Header';
 import Body from './components/Body';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import Questions from './components/Questions';
+import Assessment from './components/Assessment';
 import ChatBot from './chatbot-components/ChatBot';
+import About from './components/About';
+import Personality from './components/Personality';
+import Working from './components/Working';
+import FAQ from './components/FAQ';
 
 function App() {
   return (
@@ -18,8 +22,33 @@ function App() {
             <ChatBot className="chatbot" />
           </Route>
 
-          <Route exact path="/questions">
-            <Questions />
+          <Route exact path="/assessment">
+            <Header />
+            <Assessment />
+            <ChatBot className="chatbot"/>
+          </Route>
+
+          <Route exact path="/about">
+            <Header />
+            <About />
+            <ChatBot className="chatbot"/>
+          </Route>
+
+          <Route exact path="/personality">
+            <Header />
+            <Personality />
+            <ChatBot className="chatbot"/>
+          </Route>
+
+          <Route exact path="/working">
+            <Header />
+            <Working />
+            <ChatBot className="chatbot"/>
+          </Route>
+
+          <Route exact="/faq">
+            <Header />
+            <FAQ />
             <ChatBot className="chatbot"/>
           </Route>
         </Switch>

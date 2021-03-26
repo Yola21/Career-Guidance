@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './Body.css';
-import career from '../image/career.png';
 import assessment from '../image/assessment.png';
 import tools from '../image/tools.jpg';
 import research from '../image/research.jpg';
@@ -9,6 +8,7 @@ import social from '../image/social.jpg';
 import businessmen from '../image/businessmen.jpg';
 import analysis from '../image/analysis.jpg';
 import { Link } from 'react-router-dom';
+import Counter from './Counter';
 
 export default class Body extends Component {
     render() {
@@ -21,25 +21,7 @@ export default class Body extends Component {
                     </div>
                 </div>
 
-                <div className="body_CounterBox">
-                    <div className="body_CounterSVG">
-                        <img src={career} alt="Career Guidance" className="body_SVG" />
-                    </div>
-                    <div className="body_Box">
-                        <div>
-                            <p>+100</p>
-                            <p>Students helped</p>
-                        </div>
-                        <div>
-                            <p>+100</p>
-                            <p>Assessment done</p>
-                        </div>
-                        <div>
-                            <p>+100</p>
-                            <p>Found their path</p>
-                        </div>
-                    </div>
-                </div>
+                <Counter />
 
                 <section className="body_Personality">
                     <h2>Personality Traits</h2>

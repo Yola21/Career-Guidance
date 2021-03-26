@@ -1,0 +1,20 @@
+.assessment hr{
+    margin-top: 5px;
+}
+
+.assessment_Paper{
+    width: 60%;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgb(241, 234, 234) !important;
+    /* color: darkblue !important; */
+}
+
+.assessment_Buttons{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.assessment_RadioGroup{
+    display: grid;
+}

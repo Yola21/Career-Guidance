@@ -56,7 +56,7 @@ export default class Footer extends Component {
                     </div>
                 </section>
                 <div className="footer_Copyright">
-                    <p>© 2020 Copyright: <Link to="/"> Career Guidance.com</Link></p>
+                    <p>© 2021 Copyright: <Link to="/"> Career Guidance.com</Link></p>
                 </div>
             </footer>
         )

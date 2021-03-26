@@ -1,10 +1,10 @@
-h2{
+.body h2{
     color: cornflowerblue;
     font-family: 'Playfair Display', serif;
     font-size: 30px;
 }
 
-h3{
+.body h3{
     font-family: 'Playfair Display', serif;
 }
 
@@ -12,6 +12,7 @@ h3{
     font-size: 18px;
     padding: 10px 20px;
     background: url(../image/careerbg.png);
+    background-size: cover;
     width: 97vw;
     height: 89.5vh;
     display: flex;
@@ -30,43 +31,6 @@ h3{
     color: darkblue;
     font-size: 60px;
     font-family: 'Playfair Display', sans-serif;
-}
-
-.body_SVG{
-    width: 50rem;
-    object-fit: cover;
-}
-
-.body_CounterBox{
-    /* border: 1px solid red; */
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 25px;
-    margin-top: 8rem;
-}
-
-.body_Box{
-    width: 50%;
-    /* border: 1px solid indigo; */
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    border-radius: 10px;
-    background-color: cornflowerblue;
-    color: cornsilk;
-    font-size: 20px;
-    font-weight: 500;
-    font-family: 'Source Sans Pro', sans-serif;
-    box-shadow: 0 10px 30px #343a40;
-}
-
-.body_Box div{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15px;
 }
 
 .body_Personality{
@@ -165,5 +129,7 @@ h3{
 }
 
 .body_Intro{
+    padding: 0 50px;
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 20px;
 }
