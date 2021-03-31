@@ -18,3 +18,26 @@
 .assessment_RadioGroup{
     display: grid;
 }
+
+.assessment_Options{
+    display: flex;
+    flex-direction: column;
+}
+
+.assessment_RadioButton{
+    display: flex;
+    align-items: center;
+}
+
+/* .PrivateRadioButtonIcon-root-8.PrivateRadioButtonIcon-checked-10 .PrivateRadioButtonIcon-layer-9 {
+    transform: scale(1);
+    transition: transform 150ms cubic-bezier(0.0, 0, 0.2, 1) 0ms;
+}
+
+.MuiRadio-colorSecondary.Mui-checked{
+    color: #f50057;
+} */
+
+input[type="radio" i]{
+    background-color: chartreuse !important;
+}

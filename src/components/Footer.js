@@ -29,27 +29,27 @@ export default class Footer extends Component {
                         <ul>
                             <li>
                                 <Link to="/">
-                                <i class="fab fa-facebook-square facebook"> </i>
+                                <i className="fab fa-facebook-square facebook"> </i>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/">
-                                <i class="fab fa-instagram instagram"> </i>
+                                <i className="fab fa-instagram instagram"> </i>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/">
-                                <i class="fab fa-twitter-square twitter"> </i>
+                                <i className="fab fa-twitter-square twitter"> </i>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/">
-                                <i class="fab fa-google-plus-square google"> </i>
+                                <i className="fab fa-google-plus-square google"> </i>
                                 </Link>
                             </li>
                             <li>
                                 <Link to="/">
-                                <i class="fab fa-linkedin linkedin"> </i>
+                                <i className="fab fa-linkedin linkedin"> </i>
                                 </Link>
                             </li>
                         </ul>

@@ -46,7 +46,7 @@ function App() {
             <ChatBot className="chatbot"/>
           </Route>
 
-          <Route exact="/faq">
+          <Route exact path="/faq">
             <Header />
             <FAQ />
             <ChatBot className="chatbot"/>

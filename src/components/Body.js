@@ -16,7 +16,6 @@ export default class Body extends Component {
             <div className="body">
                 <div className="body_Abstract">
                     <div>
-                        <h3>What We Do?</h3>
                         <p>We are here to help the High Grad or equivalent students in choosing their career path. We will guide them in understanding their personality traits. We also provide details of colleges and career fields which best fit their personality trait.</p>    
                     </div>
                 </div>
