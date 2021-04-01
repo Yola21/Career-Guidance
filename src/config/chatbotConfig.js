@@ -1,8 +1,8 @@
 import React from "react";
 import { createChatBotMessage } from "react-chatbot-kit";
 
-import HighSchoolBranches from "../Chatbot-Components/HighSchoolBranches";
-import List from "../Chatbot-Components/List";
+import HighSchoolBranches from "../ChatBot-Components/HighSchoolBranches";
+import List from "../ChatBot-Components/List";
 
 const botName = "Career Guidance Bot";
 
