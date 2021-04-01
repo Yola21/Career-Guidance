@@ -4,7 +4,7 @@ import Header from './components/Header';
 import Body from './components/Body';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import Assessment from './components/Assessment';
-import ChatBot from './chatbot-components/ChatBot';
+import ChatBot from './ChatBot-Components/ChatBot';
 import About from './components/About';
 import Personality from './components/Personality';
 import Working from './components/Working';
