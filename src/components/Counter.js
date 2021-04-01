@@ -4,9 +4,11 @@ import career from '../image/career.png';
 import './Counter.css'; 
 
 function Counter() {
-    const value1 = 150;
-    const value2 = 250;
-    const value3 = 350;
+    const value1 = 1500;
+    const value2 = 2500;
+    const value3 = 1800;
+    const duration = 10;
+    const delay = 5;
 
     return (
         <div className="counter">
@@ -18,7 +20,8 @@ function Counter() {
                     <span>+
                         <CountUp
                             end={value1}
-                            // duration={10}
+                            duration={duration}
+                            delay={delay}
                         />
                     </span>
 
@@ -28,7 +31,8 @@ function Counter() {
                     <span>+
                         <CountUp
                             end={value2}
-                            // duration={10}
+                            duration={duration}
+                            delay={delay}
                         />
                     </span>
                     <p>Assessment done</p>
@@ -37,7 +41,8 @@ function Counter() {
                     <span>+
                         <CountUp
                             end={value3}
-                            // duration={10}
+                            duration={duration}
+                            delay={delay}
                         />
                     </span>
                     <p>Found their path</p>

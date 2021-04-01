@@ -19,7 +19,7 @@ export default class Body extends Component {
                         <p>We are here to help the High Grad or equivalent students in choosing their career path. We will guide them in understanding their personality traits. We also provide details of colleges and career fields which best fit their personality trait.</p>    
                     </div>
                 </div>
-
+                
                 <Counter />
 
                 <section className="body_Personality">
@@ -88,7 +88,7 @@ export default class Body extends Component {
                         <div id="body_AssessmentBox">
                             <h3>Personality Assessment</h3>
                             <p>Questions selected for Assessment will be according to the Holland’s Theory. Students have to answer each and every question honestly and after completing assessment they will see their results. </p>
-                            <Link to="/questions">
+                            <Link to="/assessment">
                                 <button>Take Assessment</button>
                             </Link>
                         </div>

@@ -16,7 +16,6 @@ const config = {
       "May I know in which stream from the below you are enrolled in?",
       {
         withAvatar: true,
-        widget: "highSchoolBranches"
       }
     )
   ],
